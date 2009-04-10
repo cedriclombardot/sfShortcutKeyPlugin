@@ -1,0 +1,4 @@
+config/shortcuts.yml:
+  class:    sfDefineEnvironmentConfigHandler
+  param:
+    prefix: shc_

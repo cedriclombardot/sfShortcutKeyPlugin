@@ -1,0 +1,8 @@
+all:
+  shortcuts:
+    keys:
+      g:
+        url: home/index
+    alt:
+      g:
+        url: @homepage

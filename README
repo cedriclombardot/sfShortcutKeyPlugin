@@ -1,0 +1,28 @@
+# sfShortcutKeyPlugin
+
+## Install
+
+Configure your filters.yml adding :
+
+    [yml]
+    shortcuts:
+      class: sfShortcutKeyFilter
+
+
+## Configure 
+
+To configure your shorcuts set the config files shortcuts.yml in yout directories
+
+The structure is the next one :
+
+    [yml]
+    all:
+      shortcuts:
+        keys: # Part for direct key code Only one key pressed
+          a: #The name of the code
+            url: @route # or module/index to redirect on the key pressed
+        alt: # Part for ALT+ <smth>
+        ctrl: #same for CTRL+<smth>
+        shift: # SHIFT+<smth>
+        
+
